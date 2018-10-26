@@ -15,6 +15,9 @@
 		B12BC5392180559400E69416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12BC5372180559400E69416 /* LaunchScreen.storyboard */; };
 		B12BC5442180559500E69416 /* PersonMgrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BC5432180559500E69416 /* PersonMgrTests.swift */; };
 		B12BC54F2180559500E69416 /* PersonMgrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BC54E2180559500E69416 /* PersonMgrUITests.swift */; };
+		B12BC55D218057E600E69416 /* PersonTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BC55C218057E600E69416 /* PersonTVC.swift */; };
+		B12BC55F2180691E00E69416 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BC55E2180691E00E69416 /* Person.swift */; };
+		B12BC5612180834400E69416 /* PersonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BC5602180834400E69416 /* PersonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B12BC54A2180559500E69416 /* PersonMgrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonMgrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12BC54E2180559500E69416 /* PersonMgrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMgrUITests.swift; sourceTree = "<group>"; };
 		B12BC5502180559500E69416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12BC55C218057E600E69416 /* PersonTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTVC.swift; sourceTree = "<group>"; };
+		B12BC55E2180691E00E69416 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B12BC5602180834400E69416 /* PersonDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				B12BC52E2180559200E69416 /* FirstViewController.swift */,
 				B12BC5302180559200E69416 /* SecondViewController.swift */,
 				B12BC5322180559200E69416 /* Main.storyboard */,
+				B12BC55C218057E600E69416 /* PersonTVC.swift */,
+				B12BC5602180834400E69416 /* PersonDetailVC.swift */,
+				B12BC55E2180691E00E69416 /* Person.swift */,
 				B12BC5352180559400E69416 /* Assets.xcassets */,
 				B12BC5372180559400E69416 /* LaunchScreen.storyboard */,
 				B12BC53A2180559400E69416 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12BC55F2180691E00E69416 /* Person.swift in Sources */,
 				B12BC5312180559200E69416 /* SecondViewController.swift in Sources */,
+				B12BC5612180834400E69416 /* PersonDetailVC.swift in Sources */,
 				B12BC52D2180559200E69416 /* AppDelegate.swift in Sources */,
+				B12BC55D218057E600E69416 /* PersonTVC.swift in Sources */,
 				B12BC52F2180559200E69416 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
